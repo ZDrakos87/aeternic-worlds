@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Zayquan Aeternum — Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- --------------------
+         HEADER
+    --------------------- -->
+
+    <header>
+
+        <h1>Zayquan Aeternum</h1>
+
+        <nav>
+
+            <a href="#work">
+                Work
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- --------------------
+             HERO
+        --------------------- -->
+
+        <section class="hero">
+
+            <p class="eyebrow">
+                ART · CODE · SOUND · WORLDS
+            </p>
+
+            <h2>
+                A collection of creative work across
+                physical and digital media.
+            </h2>
+
+        </section>
+
+
+
+        <!-- --------------------
+             WORK
+        --------------------- -->
+
+        <section id="work">
+
+            <div class="section-heading">
+
+                <h2>
+                    Selected Work
+                </h2>
+
+                <p>
+                    2025–2026
+                </p>
+
+            </div>
+
+
+            <div class="filters">
+
+                <button
+                    class="filter-button active"
+                    data-filter="All"
+                >
+                    All
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-filter="Traditional Art"
+                >
+                    Traditional
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-filter="Digital Art"
+                >
+                    Digital
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-filter="Creative Coding"
+                >
+                    Code
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-filter="Music"
+                >
+                    Music
+                </button>
+
+            </div>
+
+
+            <!-- JavaScript creates the work cards here -->
+
+            <div
+                id="gallery"
+                class="gallery"
+            >
+            </div>
+
+        </section>
+
+
+
+        <!-- --------------------
+             ABOUT
+        --------------------- -->
+
+        <section id="about">
+
+            <div class="section-heading">
+
+                <h2>
+                    About
+                </h2>
+
+            </div>
+
+
+            <p class="about-text">
+
+                I work across traditional art, digital media,
+                creative coding, animation, sound, and worldbuilding.
+                My practice explores the relationship between technology,
+                imagination, symbolism, and constructed worlds.
+
+            </p>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- --------------------
+         FOOTER
+    --------------------- -->
+
+    <footer>
+
+        <p>
+            © 2026 Zayquan Aeternum
+        </p>
+
+    </footer>
+
+
+
+    <!-- --------------------
+         PROJECT MODAL
+    --------------------- -->
+
+    <div
+        id="project-modal"
+        class="project-modal"
+    >
+
+        <button
+            id="close-modal"
+            class="close-modal"
+            aria-label="Close project"
+        >
+            ×
+        </button>
+
+
+        <div class="project-content">
+
+
+            <!-- SINGLE IMAGE -->
+
+            <img
+                id="modal-image"
+                class="modal-image"
+                src=""
+                alt=""
+            >
+
+
+            <!-- VIDEO -->
+
+            <video
+                id="modal-video"
+                class="modal-video"
+                controls
+            >
+            </video>
+
+
+            <!-- AUDIO -->
+
+            <audio
+                id="modal-audio"
+                class="modal-audio"
+                controls
+            >
+            </audio>
+
+
+            <!-- MULTI-IMAGE PROJECT -->
+
+            <div
+                id="modal-gallery"
+                class="modal-gallery"
+            >
+            </div>
+
+
+            <!-- PROJECT INFORMATION -->
+
+            <div class="project-info">
+
+                <h2 id="modal-title">
+                </h2>
+
+                <p id="modal-meta">
+                </p>
+
+                <p id="modal-description">
+                </p>
+
+
+                <!-- PREVIOUS / NEXT -->
+
+                <div class="project-nav">
+
+                    <button id="previous-project">
+                        ← Previous
+                    </button>
+
+                    <button id="next-project">
+                        Next →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- JavaScript stays last -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
